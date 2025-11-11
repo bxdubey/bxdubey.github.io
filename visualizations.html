@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .visualization {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualization Dashboard</h1>
+
+    <h2>Part 1: Indigenous Population Proportions in Canada</h2>
+    <div class="visualization">
+        <iframe src="donut.html"></iframe>
+    </div>
+
+    <h2>Part 2: Indigenous Populations in Canada (2021)</h2>
+    <div class="visualization">
+        <iframe src="map.html"></iframe>
+    </div>
+
+    <h2>Part 3: Relationship Between Fair/Poor Mental Health and Food Insecurity</h2>
+    <div class="visualization">
+        <iframe src="scatter.html"></iframe>
+    </div>
+</body>
+</html>
